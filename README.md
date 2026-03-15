@@ -10,4 +10,6 @@ so all the files are included and i have used chatGPT to make the code more read
 
 4. thats it i guess for now ; ) you can make your own changes in the files are you have downloaded them. 
 
-5. keep all the pi .py files inside a folder, name it anything you want but keep in mind to USE THIS FOLDERS NAME IN THE DIRECTORY GIVEN TO PIPER AND VOSK MODEL, or simply put the models inside this main robot folder, then you can just start the robot using "python3 main.py" in the command line when inside this robot folder.
+5. keep all the pi .py files inside a folder, name it anything you want but keep in mind to USE THIS FOLDERS NAME IN THE DIRECTORY GIVEN TO PIPER AND VOSK MODEL, or simply put the models inside this main robot folder, then you can just start the robot using "python3 main.py" in the command line when inside this robot folder. i have written them as your folder everywhere.
+
+6. port='/dev/arduino_uno' this is /dev/ttyACM0 in the pi, i just made a custom directory for it to access, but remember not to plug in and out the arduino while the pi is ON, else the directory will change its name and you will get errors with serial communication.
