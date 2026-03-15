@@ -9,3 +9,5 @@ so all the files are included and i have used chatGPT to make the code more read
 3. you have to download the vosk model too, which can be downloaded via the command line same as the piper model, but remember to use the exact same directories where you are storing all these models for STT and TTS, using "wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip" to download the zip and "unzip vosk-model-small-en-us-0.15.zip" to unzip it inside your pre made folder. 
 
 4. thats it i guess for now ; ) you can make your own changes in the files are you have downloaded them. 
+
+5. keep all the pi .py files inside a folder, name it anything you want but keep in mind to USE THIS FOLDERS NAME IN THE DIRECTORY GIVEN TO PIPER AND VOSK MODEL, or simply put the models inside this main robot folder, then you can just start the robot using "python3 main.py" in the command line when inside this robot folder.
