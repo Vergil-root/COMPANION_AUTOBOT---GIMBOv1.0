@@ -13,3 +13,5 @@ so all the files are included and i have used chatGPT to make the code more read
 5. keep all the pi .py files inside a folder, name it anything you want but keep in mind to USE THIS FOLDERS NAME IN THE DIRECTORY GIVEN TO PIPER AND VOSK MODEL, or simply put the models inside this main robot folder, then you can just start the robot using "python3 main.py" in the command line when inside this robot folder. i have written them as your folder everywhere.
 
 6. port='/dev/arduino_uno' this is /dev/ttyACM0 in the pi, i just made a custom directory for it to access, but remember not to plug in and out the arduino while the pi is ON, else the directory will change its name and you will get errors with serial communication.
+
+7. while playing with arduino and pi type MCUs in a hybrid enviorment you have to be very careful, because one operates in a 5V domain and the latter operates in 3.3V, a single mistake can cost you your pi, or result in reboots and crashes. use level shifter ICs or resistor divider circuits when connecting both, or in my case i have used direct USB serial over UART comms. 
