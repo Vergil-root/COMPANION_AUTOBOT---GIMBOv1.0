@@ -1,6 +1,6 @@
 Hello guys,
 
-so all the files are included and i have used chatGPT to make the code more readable and easy to understand, also there are a few things you people should know:
+so all the files are included and i have edited the code more readable and easy to understand, also there are a few things you people should know:
 
 1. the sound directory in the audio_dir is made by me using a code given by chatGPT to directly make pre loaded .wav sound files and include them in the brain by their name ex "good morning" or mom and dad or sister to address my family members too. you have to download the dir via the pi zero command line "wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/low/en_US-lessac-low.onnx" and "wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/low/en_US-lessac-low.onnx.json" into a pre made folder by yourself, can be named anything but remember to put the directory name same as the folder you downloaded the onnx and json files above. after that run the code piper_preloaded.py in the pi itself and make as many .wav sounds as you want (with the same file directory as above).
 
